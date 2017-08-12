@@ -3,7 +3,7 @@
 Runs cron jobs for www-stephen-cresswell.net
 
 ## Jobs
-1. Renews [Let's Encrypt](https://letsencrypt.org/) certificates using (certbot)[https://certbot.eff.org/]
+1. Renews [Let's Encrypt](https://letsencrypt.org/) certificates using [certbot](https://certbot.eff.org/)
 1. Purges old containers, images and volumes (TODO)
 
 ## Scripts
