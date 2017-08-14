@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Running docker prune $(date)" >>/var/log/docker-prune.log
+/usr/bin/docker system prune --force >>/var/log/docker-prune.log 2>&1
